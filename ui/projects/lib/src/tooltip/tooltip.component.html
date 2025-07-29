@@ -1,0 +1,8 @@
+@if(isString){
+  {{contentString}}
+} @else {
+  <ng-template #tooltipContent>
+    <ng-container *ngTemplateOutlet="contentTemplate">
+    </ng-container>
+  </ng-template>
+}

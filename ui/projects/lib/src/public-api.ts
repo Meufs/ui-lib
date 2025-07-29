@@ -3,4 +3,5 @@
  */
 
 export * from './lib/lib.service';
-export * from './lib/lib.component';
+export * as LibComponent from './lib/lib.component';
+export * as TooltipDirective from './tooltip/tooltip.directive';
